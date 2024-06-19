@@ -1,6 +1,8 @@
 <h1 align="center">Repositories Landscape 💎</h1>
 <p align="center">Welcome to my repositories landscape 👋</p>
 
+If you want to create your own repository landscape similar to this, please follow this [**guide**](./create-repo-landscape.md) 📖
+
 
 | ID  | URL          | Description                                              |
 | :-- | :--------------- | :---------------------------------------------  |
