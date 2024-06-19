@@ -7,7 +7,7 @@ MODE=${2:-table}
 GITHUB_OWNER=$3
 
 if [[ -z $REPOSITORY_LIST || -z $MODE || -z $GITHUB_OWNER ]]; then
-    echo "ERROR: epository list is empty!"
+    echo "ERROR: repository list is empty!"
     echo "Usage: $0 <repository_list_path> <mode> <github_owner>"
     exit 1
 fi
