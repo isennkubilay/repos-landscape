@@ -6,7 +6,7 @@ If you want to create your own repository landscape similar to this, please foll
 
 | ID  | URL          | Description                                            | Stars  |
 | :-- | :--------------- | :--------------------------------------------- | :------ |
-| 1 | <a href="https://github.com/isennkubilay/go-docker-cli">go-docker-cli</a> | null | <a href="https://github.com/isennkubilay/go-docker-cli/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/isennkubilay/go-docker-cli?style=flat" height="20"/></a> |
+| 1 | <a href="https://github.com/isennkubilay/go-docker-cli">go-docker-cli</a> | Interactively choose and execute Docker operations from within a Go program. | <a href="https://github.com/isennkubilay/go-docker-cli/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/isennkubilay/go-docker-cli?style=flat" height="20"/></a> |
 | 2 | <a href="https://github.com/isennkubilay/nginx-reverse-proxy">nginx-reverse-proxy</a> | null | <a href="https://github.com/isennkubilay/nginx-reverse-proxy/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/isennkubilay/nginx-reverse-proxy?style=flat" height="20"/></a> |
 
 For full list of repositories, click [**here**](https://github.com/isennkubilay?tab=repositories&q=&type=&language=&sort=stargazers).
