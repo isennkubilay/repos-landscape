@@ -1,5 +1,7 @@
 #!/bin/bash
 
+GIST_LIST="gists.txt"
+
 REPOSITORY_LIST=$1
 MODE=${2:-table}
 
