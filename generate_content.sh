@@ -72,42 +72,46 @@ generate_repo_table() {
 }
 
 # Start README file with header
-echo "<h1 align=\"center\">Repositories Landscape 💎</h1>" >README.md
-echo "<p align=\"center\">Welcome to my repositories landscape 👋</p>" >>README.md
-echo "" >>README.md
-## Seperator to create following list
+echo "<h1 align=\"center\">Repositories and Gists Landscape 💎</h1>" >README.md
+echo "<p align=\"center\">Welcome to my repositories and gists landscape 👋</p>" >>README.md
 echo "" >>README.md
 
-# Start with index 1 for first repo
+# Repositories Table Header
+echo "| ID  | Type | URL          | Description                                              |" >> README.md
+echo "| :-- | :--- | :--------------- | :---------------------------------------------  |" >> README.md
+
+# Start with index 1 for first item
 index=1
 
+# Process Repositories
 while IFS= read -r repo_name; do
     echo "Working on repo: $repo_name, with index: $index"
 
     # Make the API request to get repository information
     response=$(curl -s "https://api.github.com/repos/$repo_name")
-    echo "Response:"
-    echo "$response"
-
-    # Extract the description from the response using jq (ensure jq is installed)
     description=$(echo "$response" | jq -r '.description')
+    repo_hyperlink="<a href=\"https://github.com/$repo_name\">$repo_name</a>"
 
-    if [[ "$MODE" == "table" ]]; then
-        # Generate table row with incremental index
-        generate_repo_table "$index" "$repo_name" "$description"
-    
-    elif [[ "$MODE" == "gist" ]]; then
-        # Assuming gist_id and description are set appropriately
-        generate_gist_table "$index" "$gist_id" "$description"
-    
-    else
-        # Generate list with incremental index
-        generate_repo_list "$index" "$repo_name" "$description"
-    fi
+    # Add to table
+    echo "| $index | Repo | $repo_hyperlink | $description  |" >> README.md
 
-    # Increment index
     ((index++))
 done <"$REPOSITORY_LIST"
 
+# Process Gists
+while IFS= read -r gist_id; do
+    echo "Working on gist: $gist_id, with index: $index"
+
+    # Make the API request to get gist information
+    response=$(curl -s "https://api.github.com/gists/$gist_id")
+    description=$(echo "$response" | jq -r '.description')
+    gist_hyperlink="<a href=\"https://gist.github.com/$gist_id\">$gist_id</a>"
+
+    # Add to table
+    echo "| $index | Gist | $gist_hyperlink | $description  |" >> README.md
+
+    ((index++))
+done <"$GIST_LIST"
+
 echo "" >>README.md
-echo "For full list of repositories, click [**here**](https://github.com/${GITHUB_OWNER}?tab=repositories&q=&type=&language=&sort=stargazers)." >>README.md
+echo "For full list of repositories and gists, click [**here**](https://github.com/${GITHUB_OWNER}?tab=repositories&q=&type=&language=&sort=stargazers)." >>README.md
