@@ -28,6 +28,27 @@ generate_repo_list() {
     echo "- Description: $description" >>README.md
 }
 
+# Function to generate table rows for Gists
+generate_gist_table() {
+    local index="$1"
+    local gist_id="$2"
+    local description="$3"
+
+    local gist_hyperlink="<a href=\"https://gist.github.com/$gist_id\">$gist_id</a>"
+
+    # Add header in the first run
+    if [[ "$index" == "1" ]]; then
+        echo "" >> README.md
+        echo "| ID  | Gist URL      | Description                                              |" >> README.md
+        echo "| :-- | :--------------- | :---------------------------------------------  |" >> README.md
+    fi
+
+    echo "| $index | $gist_hyperlink | $description  |" >> README.md
+}
+
+
+
+
 # Function to generate table rows
 generate_repo_table() {
     local index="$1"
@@ -74,6 +95,11 @@ while IFS= read -r repo_name; do
     if [[ "$MODE" == "table" ]]; then
         # Generate table row with incremental index
         generate_repo_table "$index" "$repo_name" "$description"
+    
+    elif [[ "$MODE" == "gist" ]]; then
+        # Assuming gist_id and description are set appropriately
+        generate_gist_table "$index" "$gist_id" "$description"
+    
     else
         # Generate list with incremental index
         generate_repo_list "$index" "$repo_name" "$description"
