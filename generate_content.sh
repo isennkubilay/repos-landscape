@@ -105,9 +105,18 @@ while IFS= read -r gist_id; do
     echo "Working on gist: $gist_id, with index: $index"
 
     # Make the API request to get gist information
-    response=$(curl -s "https://api.github.com/gists/$gist_id")
-    description=$(echo "$response" | jq -r '.description')
+    # curl çıktısını temp.json dosyasına yazdır
+    curl -s "https://api.github.com/gists/$gist_id" > temp.json
+    
+    # temp.json dosyasını jq ile işle ve description'ı çıkar
+    description=$(jq -r '.description' temp.json)
+    
+    
+    # temp.json dosyasını sil
+    rm temp.json
+    
     gist_hyperlink="<a href=\"https://gist.github.com/$gist_id\">$gist_id</a>"
+
 
     # Add to table
     echo "| $index | Gist | $gist_hyperlink | $description  |" >> README.md
