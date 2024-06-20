@@ -104,22 +104,28 @@ done <"$REPOSITORY_LIST"
 while IFS= read -r gist_id; do
     echo "Working on gist: $gist_id, with index: $index"
 
-    # Make the API request to get gist information
-    # curl çıktısını temp.json dosyasına yazdır
+    # Make the API request to get gist information and store it in temp.json
     curl -s "https://api.github.com/gists/$gist_id" > temp.json
     
-    # temp.json dosyasını jq ile işle ve description'ı çıkar
+    # Extract description
     description=$(jq -r '.description' temp.json)
     
-    
-    # temp.json dosyasını sil
+    # Extract filenames and create a list of hyperlinks
+    filenames=$(jq -r '.files | to_entries[] | .key' temp.json)
+    file_links=""
+    for filename in $filenames; do
+        file_links+="<a href=\"https://gist.github.com/$gist_id#file-$(echo $filename | sed 's/ /-/g')\">$filename</a>, "
+    done
+    # Remove the trailing comma and space
+    file_links=${file_links%, }
+
+    # Delete temp.json
     rm temp.json
     
     gist_hyperlink="<a href=\"https://gist.github.com/$gist_id\">$gist_id</a>"
 
-
-    # Add to table
-    echo "| $index | Gist | $gist_hyperlink | $description  |" >> README.md
+    # Add to table with filenames
+    echo "| $index | Gist | $gist_hyperlink | $description | $file_links |" >> README.md
 
     ((index++))
 done <"$GIST_LIST"
