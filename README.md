@@ -9,5 +9,6 @@
 | 4 | Repo | <a href="https://github.com/isennkubilay/Pathfinder_Series">isennkubilay/Pathfinder_Series</a> | Solving pathfinder series on codewars  |
 | 5 | Repo | <a href="https://github.com/isennkubilay/design_patterns">isennkubilay/design_patterns</a> | I implemented some useful design patterns in python   |
 | 6 | Gist | <a href="https://gist.github.com/3c2a626b2ef985e7f84c55713c6bd27d">3c2a626b2ef985e7f84c55713c6bd27d</a> | Personel Notes: Kubernetes, Linux, Network, Docker | <a href="https://gist.github.com/3c2a626b2ef985e7f84c55713c6bd27d#file-notes.md">notes.md</a> |
+| 7 | Gist | <a href="https://gist.github.com/0d1a4efee33b54a73223a0cb89cb1eb2">0d1a4efee33b54a73223a0cb89cb1eb2</a> | Kubernetes offline installing | <a href="https://gist.github.com/0d1a4efee33b54a73223a0cb89cb1eb2#file-centos-offline-kubernetes-installing.md">centos-offline-kubernetes-installing.md</a>, <a href="https://gist.github.com/0d1a4efee33b54a73223a0cb89cb1eb2#file-download_ubuntu_k8s_packages.sh">download_ubuntu_k8s_packages.sh</a>, <a href="https://gist.github.com/0d1a4efee33b54a73223a0cb89cb1eb2#file-install_ubuntu_kubernetes_offline.sh">install_ubuntu_kubernetes_offline.sh</a> |
 
 For full list of repositories and gists, click [**here**](https://github.com/isennkubilay?tab=repositories&q=&type=&language=&sort=stargazers).
