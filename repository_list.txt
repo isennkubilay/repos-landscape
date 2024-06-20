@@ -3,3 +3,4 @@ isennkubilay/nginx-reverse-proxy
 isennkubilay/graph_algorithms
 isennkubilay/Pathfinder_Series
 isennkubilay/design_patterns
+isennkubilay/notes.md
