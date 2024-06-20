@@ -110,14 +110,6 @@ while IFS= read -r gist_id; do
     # Extract description
     description=$(jq -r '.description' temp.json)
     
-    # Extract filenames and create a list of hyperlinks
-    filenames=$(jq -r '.files | to_entries[] | .key' temp.json)
-    file_links=""
-    for filename in $filenames; do
-        file_links+="<a href=\"https://gist.github.com/$gist_id#file-$(echo $filename | sed 's/ /-/g')\">$filename</a>, "
-    done
-    # Remove the trailing comma and space
-    file_links=${file_links%, }
 
     # Delete temp.json
     rm temp.json
