@@ -9,5 +9,6 @@
 | 4 | Repo | <a href="https://github.com/isennkubilay/Pathfinder_Series">isennkubilay/Pathfinder_Series</a> | Solving pathfinder series on codewars  |
 | 5 | Repo | <a href="https://github.com/isennkubilay/design_patterns">isennkubilay/design_patterns</a> | I implemented some useful design patterns in python   |
 | 6 | Gist | <a href="https://gist.github.com/isennkubilay/3c2a626b2ef985e7f84c55713c6bd27d">isennkubilay/3c2a626b2ef985e7f84c55713c6bd27d</a> | null  |
+| 7 | Gist | <a href="https://gist.github.com/isennkubilay/0d1a4efee33b54a73223a0cb89cb1eb2">isennkubilay/0d1a4efee33b54a73223a0cb89cb1eb2</a> | null  |
 
 For full list of repositories and gists, click [**here**](https://github.com/isennkubilay?tab=repositories&q=&type=&language=&sort=stargazers).
