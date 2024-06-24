@@ -9,7 +9,7 @@
 | 4 | Repo | <a href="https://github.com/isennkubilay/graph_algorithms">isennkubilay/graph_algorithms</a> | I implemented some of graph algorithms in python.  |
 | 5 | Repo | <a href="https://github.com/isennkubilay/Pathfinder_Series">isennkubilay/Pathfinder_Series</a> | Solving pathfinder series on codewars  |
 | 6 | Repo | <a href="https://github.com/isennkubilay/design_patterns">isennkubilay/design_patterns</a> | I implemented some useful design patterns in python   |
-| 7 | Repo | <a href="https://github.com/isennkubilay/useful-bash-scripts">isennkubilay/useful-bash-scripts</a> | null  |
+| 7 | Repo | <a href="https://github.com/isennkubilay/useful-bash-scripts">isennkubilay/useful-bash-scripts</a> | Useful bash scripts   |
 | 8 | Gist | <a href="https://gist.github.com/3c2a626b2ef985e7f84c55713c6bd27d">3c2a626b2ef985e7f84c55713c6bd27d</a> | Personel Notes: Kubernetes, Linux, Network, Docker |  |
 
 For full list of repositories and gists, click [**here**](https://github.com/isennkubilay?tab=repositories&q=&type=&language=&sort=stargazers).
