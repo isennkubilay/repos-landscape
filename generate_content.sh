@@ -117,7 +117,7 @@ while IFS= read -r gist_id; do
     gist_hyperlink="<a href=\"https://gist.github.com/isennkubilay/$gist_id\">$gist_id</a>"
 
     # Add to table with filenames
-    echo "| $index | Gist | $gist_hyperlink | $description | $file_links |" >> README.md
+    echo "| $index | Gist | $gist_hyperlink | $description  |" >> README.md
 
     ((index++))
 done <"$GIST_LIST"
