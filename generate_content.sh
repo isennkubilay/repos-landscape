@@ -114,10 +114,10 @@ while IFS= read -r gist_id; do
     # Delete temp.json
     rm temp.json
     
-    gist_hyperlink="<a href=\"https://gist.github.com/$gist_id\">$gist_id</a>"
+    gist_hyperlink="<a href=\"https://gist.github.com/isennkubilay/$gist_id\">$gist_id</a>"
 
     # Add to table with filenames
-    echo "| $index | Gist | /isennkubilay/$gist_hyperlink | $description | $file_links |" >> README.md
+    echo "| $index | Gist | $gist_hyperlink | $description | $file_links |" >> README.md
 
     ((index++))
 done <"$GIST_LIST"
