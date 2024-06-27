@@ -36,7 +36,7 @@ generate_gist_table() {
     local gist_id="$2"
     local description="$3"
 
-    local gist_hyperlink="<a href=\"https://gist.github.com/$gist_id\">$gist_id</a>"
+    local gist_hyperlink="<a href=\"https://gist.github.com/isennkubilay/$gist_id\">$gist_id</a>"
 
     # Add header in the first run
     if [[ "$index" == "1" ]]; then
