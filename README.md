@@ -4,7 +4,7 @@
 | ID  | Type | URL          | Description                                              |
 | :-- | :--- | :--------------- | :---------------------------------------------  |
 | 1 | Repo | <a href="https://github.com/isennkubilay/python-ubuntu-air-gapped-container">isennkubilay/python-ubuntu-air-gapped-container</a> |  Swiss army knife for offline environment container  |
-| 2 | Repo | <a href="https://github.com/isennkubilay/nginx-reverse-proxy">isennkubilay/nginx-reverse-proxy</a> | Nginx reverse proxy with docker  |
+| 2 | Repo | <a href="https://github.com/isennkubilay/nginx-reverse-proxy-examples">isennkubilay/nginx-reverse-proxy-examples</a> | null  |
 | 3 | Repo | <a href="https://github.com/isennkubilay/graph_algorithms">isennkubilay/graph_algorithms</a> | I implemented some of graph algorithms in python.  |
 | 4 | Repo | <a href="https://github.com/isennkubilay/Pathfinder_Series">isennkubilay/Pathfinder_Series</a> | Solving pathfinder series on codewars  |
 | 5 | Repo | <a href="https://github.com/isennkubilay/design_patterns">isennkubilay/design_patterns</a> | I implemented some useful design patterns in python   |
