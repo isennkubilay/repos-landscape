@@ -1,5 +1,5 @@
 isennkubilay/python-ubuntu-air-gapped-container
-isennkubilay/nginx-reverse-proxy
+isennkubilay/nginx-reverse-proxy-examples
 isennkubilay/graph_algorithms
 isennkubilay/Pathfinder_Series
 isennkubilay/design_patterns
