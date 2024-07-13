@@ -11,7 +11,7 @@
 | 6 | Repo | <a href="https://github.com/isennkubilay/useful-bash-scripts">isennkubilay/useful-bash-scripts</a> | Useful bash scripts   |
 | 7 | Repo | <a href="https://github.com/isennkubilay/go-examples">isennkubilay/go-examples</a> | Go language learning examples  |
 | 8 | Repo | <a href="https://github.com/isennkubilay/useful-python-codes">isennkubilay/useful-python-codes</a> | using python for automation  |
-| 9 | Repo | <a href="https://github.com/isennkubilay/task-automation">isennkubilay/task-automation</a> | daily task automation with taskfile  |
+| 9 | Repo | <a href="https://github.com/isennkubilay/task-automation">isennkubilay/task-automation</a> | daily devops task automation with taskfile  |
 | 10 | Gist | <a href="https://gist.github.com/isennkubilay/3c2a626b2ef985e7f84c55713c6bd27d">3c2a626b2ef985e7f84c55713c6bd27d</a> | Personel Notes: Kubernetes, Linux, Network, Docker  |
 | 11 | Gist | <a href="https://gist.github.com/isennkubilay/ebcac84fdff66fdbd7159464f2d67007">ebcac84fdff66fdbd7159464f2d67007</a> | Actively using devops tools  |
 
