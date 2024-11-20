@@ -13,7 +13,8 @@
 | 8 | Repo | <a href="https://github.com/isennkubilay/useful-python-codes">isennkubilay/useful-python-codes</a> | using python for automation  |
 | 9 | Repo | <a href="https://github.com/isennkubilay/task-automation">isennkubilay/task-automation</a> | daily devops task automation with taskfile  |
 | 10 | Repo | <a href="https://github.com/isennkubilay/skaffold-java-example">isennkubilay/skaffold-java-example</a> | This repository is created for a Java offline development environment in kubernetes.  |
-| 11 | Gist | <a href="https://gist.github.com/isennkubilay/3c2a626b2ef985e7f84c55713c6bd27d">3c2a626b2ef985e7f84c55713c6bd27d</a> | Personel Notes: Kubernetes, Linux, Network, Docker  |
-| 12 | Gist | <a href="https://gist.github.com/isennkubilay/052a58b8645e02e3b46ed6c6194f4e3b">052a58b8645e02e3b46ed6c6194f4e3b</a> | Actively using devops tools  |
+| 11 | Repo | <a href="https://github.com/isennkubilay/kubernetes-installation-with-ansible">isennkubilay/kubernetes-installation-with-ansible</a> | Kubernetes Installation with Ansible  |
+| 12 | Gist | <a href="https://gist.github.com/isennkubilay/3c2a626b2ef985e7f84c55713c6bd27d">3c2a626b2ef985e7f84c55713c6bd27d</a> | Personel Notes: Kubernetes, Linux, Network, Docker  |
+| 13 | Gist | <a href="https://gist.github.com/isennkubilay/052a58b8645e02e3b46ed6c6194f4e3b">052a58b8645e02e3b46ed6c6194f4e3b</a> | Actively using devops tools  |
 
 For full list of repositories and gists, click [**here**](https://github.com/isennkubilay?tab=repositories&q=&type=&language=&sort=stargazers).
