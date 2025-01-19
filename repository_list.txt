@@ -10,3 +10,4 @@ isennkubilay/task-automation
 isennkubilay/skaffold-java-example
 isennkubilay/kubernetes-installation-with-ansible
 isennkubilay/infra-design
+isennkubilay/rke2-installation-with-taskfile
