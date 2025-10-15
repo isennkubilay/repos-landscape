@@ -16,7 +16,7 @@
 | 11 | Repo | <a href="https://github.com/isennkubilay/kubernetes-installation-with-ansible">isennkubilay/kubernetes-installation-with-ansible</a> | Kubernetes Installation with Ansible  |
 | 12 | Repo | <a href="https://github.com/isennkubilay/infra-design">isennkubilay/infra-design</a> | Multiple vms update with ansible  |
 | 13 | Repo | <a href="https://github.com/isennkubilay/rke2-installation-with-taskfile">isennkubilay/rke2-installation-with-taskfile</a> | Rke2 installation with taskfile high-available kubernetes  |
-| 14 | Repo | <a href="https://github.com/isennkubilay/ubuntu-kafka-servers">isennkubilay/ubuntu-kafka-servers</a> | Production-ready Apache Kafka 4.1.0 cluster with KRaft mode (no Zookeeper). Base ubuntu image install latest kafka.  |
+| 14 | Repo | <a href="https://github.com/isennkubilay/ubuntu-kafka-servers">isennkubilay/ubuntu-kafka-servers</a> | Built a production-style 3-broker Kafka 4.1 KRaft cluster locally - replication, durability, health checks, and a Python smoke test. Stop testing against toy single-node demos. Full guide inside.  |
 | 15 | Gist | <a href="https://gist.github.com/isennkubilay/3c2a626b2ef985e7f84c55713c6bd27d">3c2a626b2ef985e7f84c55713c6bd27d</a> | Personel Notes: Kubernetes, Linux, Network, Docker  |
 | 16 | Gist | <a href="https://gist.github.com/isennkubilay/052a58b8645e02e3b46ed6c6194f4e3b">052a58b8645e02e3b46ed6c6194f4e3b</a> | Actively using devops tools  |
 
