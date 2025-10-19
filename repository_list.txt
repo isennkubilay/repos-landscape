@@ -12,3 +12,4 @@ isennkubilay/kubernetes-installation-with-ansible
 isennkubilay/infra-design
 isennkubilay/rke2-installation-with-taskfile
 isennkubilay/ubuntu-kafka-servers
+isennkubilay/vault-docker-cluster
