@@ -13,3 +13,4 @@ k5yisen/infra-design
 k5yisen/rke2-installation-with-taskfile
 k5yisen/ubuntu-kafka-servers
 k5yisen/vault-docker-cluster
+ksyisen/redis-cluster
