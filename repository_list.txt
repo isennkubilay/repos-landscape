@@ -14,3 +14,4 @@ k5yisen/rke2-installation-with-taskfile
 k5yisen/ubuntu-kafka-servers
 k5yisen/vault-docker-cluster
 k5yisen/redis-cluster
+k5yisen/postfix-docker
