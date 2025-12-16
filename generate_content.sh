@@ -36,7 +36,7 @@ generate_gist_table() {
     local gist_id="$2"
     local description="$3"
 
-    local gist_hyperlink="<a href=\"https://gist.github.com/isennkubilay/$gist_id\">$gist_id</a>"
+    local gist_hyperlink="<a href=\"https://gist.github.com/k5yisen/$gist_id\">$gist_id</a>"
 
     # Add header in the first run
     if [[ "$index" == "1" ]]; then
@@ -114,7 +114,7 @@ while IFS= read -r gist_id; do
     # Delete temp.json
     rm temp.json
     
-    gist_hyperlink="<a href=\"https://gist.github.com/isennkubilay/$gist_id\">$gist_id</a>"
+    gist_hyperlink="<a href=\"https://gist.github.com/k5yisen/$gist_id\">$gist_id</a>"
 
     # Add to table with filenames
     echo "| $index | Gist | $gist_hyperlink | $description  |" >> README.md
