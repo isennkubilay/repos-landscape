@@ -20,8 +20,8 @@
 | 15 | Repo | <a href="https://github.com/k5yisen/vault-docker-cluster">k5yisen/vault-docker-cluster</a> | A reproducible HashiCorp Vault cluster lab that runs entirely on Docker. The stack spins up three Vault nodes using integrated storage (Raft), an auxiliary container that watches and auto-unseals sealed nodes, and an NGINX reverse proxy that presents a single entry point.  |
 | 16 | Repo | <a href="https://github.com/k5yisen/redis-cluster">k5yisen/redis-cluster</a> | A production-ready 6-node Redis 8.2.2 cluster (3 masters + 3 replicas) built with Docker Compose.  |
 | 17 | Repo | <a href="https://github.com/k5yisen/postfix-docker">k5yisen/postfix-docker</a> | Outbound-Only Postfix SMTP Server for My Domain  |
-| 18 | Repo | <a href="https://github.com/k5yisen/nginx-edge-cdn">k5yisen/nginx-edge-cdn</a> | null  |
-| 19 | Gist | <a href="https://gist.github.com/k5yisen/3c2a626b2ef985e7f84c55713c6bd27d">3c2a626b2ef985e7f84c55713c6bd27d</a> | null  |
-| 20 | Gist | <a href="https://gist.github.com/k5yisen/052a58b8645e02e3b46ed6c6194f4e3b">052a58b8645e02e3b46ed6c6194f4e3b</a> | null  |
+| 18 | Repo | <a href="https://github.com/k5yisen/nginx-edge-cdn">k5yisen/nginx-edge-cdn</a> | A production-ready Nginx edge server for CDN with automatic SSL/TLS certificate management using Let's Encrypt.  |
+| 19 | Gist | <a href="https://gist.github.com/k5yisen/3c2a626b2ef985e7f84c55713c6bd27d">3c2a626b2ef985e7f84c55713c6bd27d</a> | Personel Notes: Kubernetes, Linux, Network, Docker  |
+| 20 | Gist | <a href="https://gist.github.com/k5yisen/052a58b8645e02e3b46ed6c6194f4e3b">052a58b8645e02e3b46ed6c6194f4e3b</a> | Actively using devops tools  |
 
 For full list of repositories and gists, click [**here**](https://github.com/k5yisen?tab=repositories&q=&type=&language=&sort=stargazers).
